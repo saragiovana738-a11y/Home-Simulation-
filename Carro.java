@@ -1,12 +1,14 @@
 package casa.carro;
 
 class Carro {
-	String tipoC;
+	private String tipoC;
 	
 	public Carro(String tipoC) {
 		this.tipoC = tipoC;
 	}
-
+	public String getTipoC() {
+		return tipoC;
+	}
 	void ligar() {
 		System.out.println("Carro ligado");
 	}
